@@ -9,5 +9,6 @@ deploy:
   - build/libs/serviceprovider-${TRAVIS_TAG}.jar
   - build/libs/serviceprovider-${TRAVIS_TAG}-sources.jar
   - build/libs/serviceprovider-${TRAVIS_TAG}-javadoc.jar
+  skip_cleanup: true
   on:
     tags: true
