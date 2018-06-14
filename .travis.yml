@@ -10,4 +10,4 @@ deploy:
   - build/libs/serviceprovider-${TRAVIS_TAG}-sources.jar
   - build/libs/serviceprovider-${TRAVIS_TAG}-javadoc.jar
   on:
-    repo: jomof/serviceprovider
+    tags: true
